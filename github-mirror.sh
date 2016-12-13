@@ -11,6 +11,10 @@ repo_org="
   jicknan
   containous
   docker
+  prometheus
+  github
+  percona
+  google
 "
 repo_kubernetes="
   contrib
@@ -24,8 +28,31 @@ repo_kubernetes="
   kubeadm
   git-sync
 "
+repo_google="
+  cadvisor
+"
 repo_docker="
   docker
+"
+repo_prometheus="
+  prometheus
+  node_exporter
+  mysqld_exporter
+"
+repo_github="
+  orchestrator
+"
+repo_percona="
+  pmm
+  pmm-server
+  qan-api
+  qan-app
+  grafana-dashboards
+  pmm-client
+  qan-agent
+  kardianos-service
+  node_exporter
+  mysqld_exporter
 "
 repo_geerlingguy="
   ansible-role-dotfiles
