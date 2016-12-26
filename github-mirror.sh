@@ -15,6 +15,10 @@ repo_org="
   github
   percona
   google
+  elastic
+"
+repo_elastic="
+  examples
 "
 repo_kubernetes="
   contrib
@@ -63,6 +67,7 @@ repo_geerlingguy="
 "
 repo_jicknan="
   dotfiles
+  marp
 "
 repo_containous="
   traefik
