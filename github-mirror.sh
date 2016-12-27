@@ -18,6 +18,7 @@ repo_org="
   elastic
 "
 repo_elastic="
+  beats
   examples
 "
 repo_kubernetes="
@@ -81,7 +82,9 @@ do
     if [ -d $REPO_DIR/$org/${repo}.git ]; then
       echo "==== Updating $SRC_URL/$org/${repo}.git ===="
       (cd $REPO_DIR/$org/${repo}.git; \
-      git remote update)
+      git remote update; \
+      git prune; \
+      git gc;)
     else
       echo "++++ Mirroring $SRC_URL/$org/${repo}.git ++++"
       (mkdir -p $REPO_DIR/$org/; cd $REPO_DIR/$org/; \
