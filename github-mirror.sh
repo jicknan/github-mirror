@@ -16,7 +16,12 @@ repo_org="
   percona
   google
   elastic
+  CISOfy
 "
+repo_CISOfy="
+  lynis
+"
+
 repo_elastic="
   beats
   examples
