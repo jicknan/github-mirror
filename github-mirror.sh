@@ -1,6 +1,6 @@
 #!/bin/bash
 # github local mirror for CentOS 7
-# update 2016-12-09 by jicknan
+# update 2017-01-03 by jicknan
 
 REPO_DIR="/var/lib/git"
 SRC_URL="https://github.com"
