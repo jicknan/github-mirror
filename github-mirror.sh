@@ -17,9 +17,14 @@ repo_org="
   google
   elastic
   CISOfy
+  medcl
 "
 repo_CISOfy="
   lynis
+"
+
+repo_medcl="
+  elasticsearch-analysis-ik
 "
 
 repo_elastic="
